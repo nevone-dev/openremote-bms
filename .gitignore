@@ -29,3 +29,6 @@ Thumbs.db
 proxy-data/
 manager-data/
 postgresql-data/
+
+# OpenRemote platform source (local reference only — not needed to run the stack)
+openremote_sdk/
