@@ -125,7 +125,9 @@ class Mutation:
                 "columns": input.columns,
                 "maxScreenWidth": input.max_screen_width,
                 "refreshInterval": input.refresh_interval,
-                "screenPresets": [],
+                "screenPresets": [
+                    {"id": "default", "displayName": "Default", "breakpoint": 1920, "scalingPreset": "KEEP_LAYOUT"}
+                ],
                 "widgets": [_widget_payload(w) for w in input.widgets],
             },
         }
