@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Env / secrets
+.env
+*.env.local
+
+# Logs
+*.log
+/tmp/bms-sim.pid
+/tmp/bms-sim.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Docker volumes (not checked in)
+proxy-data/
+manager-data/
+postgresql-data/
